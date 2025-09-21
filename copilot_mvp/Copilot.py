@@ -1,12 +1,12 @@
 ##%%writefile copilot.py
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "Por seguridad no pongo el APIKEY"
 import json
 import streamlit as st
 from datetime import datetime
 from typing import Dict, List, Tuple, Optional
 
-# --- OpenAI client (SDK v1) ---
+
 try:
     from openai import OpenAI
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -260,3 +260,4 @@ if st.session_state["history"]:
 # Footer
 st.markdown("---")
 st.caption("Construido para el caso de estudio: MVP simple con grounding Hospitality/SOP + bonus de agente.")
+
